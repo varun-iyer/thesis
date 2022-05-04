@@ -1,5 +1,5 @@
 ## Todo
-- [] compile everything into one pdf
+- [x] compile everything into one pdf
 - [] remove section in basic right on disagreeing with korsgaard
 - [] open up discussion to any/all rights-based views
 - [] touch on epistemology or skirt around it
