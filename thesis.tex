@@ -1,12 +1,13 @@
-\documentclass[12pt]{book}
+\documentclass[12pt,oneside]{book}
 \usepackage{mathpazo}
 \usepackage[backend=bibtex]{biblatex-chicago}
 \usepackage[english]{babel}
 \addto\captionsenglish{\renewcommand\chaptername{Part}}
 \bibliography{thesis}
 
-\author{Varun Iyer}
-\date{\today}
+\immediate\write18{/usr/bin/git rev-parse HEAD | head -c 5 > rev.tex}
+\author{Varun Iyer \\ \emph{Advised by:} Prof. Hanser; Prof. Fernandez}
+\date{\today \\ Draft \texttt{\input{rev.tex}} }
 \title{\textsc{Living Together: Our Duties to Liminal Animals}}
 
 \begin{document}
