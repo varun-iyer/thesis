@@ -10,7 +10,7 @@
 \immediate\write18{/usr/bin/git rev-parse HEAD | head -c 5 > rev.tex}
 \immediate\write18{git ls-files | grep .tex --color=no | xargs cat | md5sum | head -c 5 > hash.tex}
 \author{Varun Iyer \\ \emph{Advised by:} Prof. Hanser; Prof. Fernandez}
-\date{\today \\ Rev. \texttt{\input{rev.tex}}, Build \texttt{\input{hash.tex}}}
+\date{\today \\ \footnotesize Rev. \texttt{\input{rev.tex}} Build \texttt{\input{hash.tex}}}
 \title{\textsc{Living Together: Our Duties to Liminal Animals}}
 
 \begin{document}
